@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crew</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        main{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav>
+        <a href="../index.html">00 HOME</a>
+        <a href="../destination/destination.html">01 DESTINATION</a>
+        <a href="">02 CREW</a>
+        <a href="">03 TECHNOLOGY</a>
+
+    </nav>
+   
+       <h1>02 MEET YOUR CREW</h1>
+
+       <span class="material-symbols-outlined" id="anou" onclick="clickMenu()">lens</span>
+       <span class="material-symbols-outlined" id="cara" onclick="clickMenu()">face</span>
+       <span class="material-symbols-outlined">lens</span>
+       <span class="material-symbols-outlined">lens</span>
+
+     <main id="ianou">
+        <img src="../imagens/crew/mulher-pq.webp" alt="">
+       <h1>Anousheh Ansari</h1>
+       <P> Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</P>
+   </main>
+
+   <main id="icara">
+    <img src="../imagens/crew/feliz-pq.webp" alt="">
+    <h1>Commander Douglas Hurley</h1>
+     <p>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+
+   </main>
+   <script>
+    function clickMenu(){
+        if (ianou.style.display=='block'){
+            ianou.style.display='none'
+        } else {
+            ianou.style.display='block'
+        }
+    }
+    
+    
+   </script>
+    
+</body>
+</html>

@@ -29,20 +29,33 @@ span#burguer{
 }
 menu#itens{
     display:block;
+
+}
+h2{
+    padding: 20px;
+    
 }
 
-menu#itens >ul >li{
+menu#itens >a{
     width: 200px;
+    color: white;
+    text-decoration: none;
     margin: auto;
     list-style: none;
     border-radius: 20px;
+    background-color: rgba(44, 44, 66, 0.493);
+    margin-top: 32px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1em;
 }
-menu#itens > ul> li:hover{
+menu#itens >a:hover{
     background-color: white;
     color: black;
     font-weight: bold;
     
 }
+
 
 
 
