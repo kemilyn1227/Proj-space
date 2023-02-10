@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+font-family: 'Heebo', sans-serif;
+background: black url(../imagens/home/background-home-mobile.jpg) no-repeat ;
+color: white;
+background-size: cover;
+background-position: center center;
+height:854px;
+text-align: center;
+}
+
+span#burguer{
+    display: block;
+    text-align: right;
+    font-size: 50px;
+    padding-bottom: 0.5em;
+    padding: 20px;
+    cursor: pointer;
+}
+menu#itens{
+    display:block;
+}
+
+menu#itens >ul >li{
+    width: 200px;
+    margin: auto;
+    list-style: none;
+    border-radius: 20px;
+}
+menu#itens > ul> li:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    font-size: 10em;
+    font-weight: lighter;
+    padding-bottom: 0.5em;
+
+}
+div#space > p{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    text-align: justify;
+    width: 400px;
+    padding-bottom: 6em;
+}
+
+
+
+a#home{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    background-color: wheat;
+    font-size: 2.5em;
+    border-radius:100em;
+    padding: 54px;
+    padding-left: 17px;
+    padding-bottom: 20px;
+    border-radius: 100em;
+    width: 174px;
+    height: 174px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    
+
+}
