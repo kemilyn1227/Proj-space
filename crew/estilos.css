@@ -21,9 +21,16 @@ body,html{
     
 }
 img{
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     display: block;
     margin: auto;
+}
+section >a{
+    padding: 10px;
+}
+section >h1{
+    padding-top: 5px;
 }
 nav{
     background-color: rgba(44, 44, 66, 0.493);
