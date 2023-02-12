@@ -39,7 +39,7 @@ nav{
 
 }
 nav > a{
-    padding-right: 55px;
+    padding: 13px;
     text-decoration: none;
     color: white;
 }

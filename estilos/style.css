@@ -46,9 +46,10 @@ menu#itens >a{
     background-color: rgba(44, 44, 66, 0.493);
     margin-top: 32px;
     margin: 20px;
-    padding: 20px;
+    padding: 8px;
     font-size: 1em;
 }
+
 menu#itens >a:hover{
     background-color: white;
     color: black;
