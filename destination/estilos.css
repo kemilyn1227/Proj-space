@@ -20,13 +20,15 @@ body,html{
     font-size: justify;
     
 }
-div >h1{
+div >h1 h2{
     font-size: 3em;
+    font-weight: lighter;
 }
 img{
     padding-bottom: 20px;
     display: block;
     margin: auto;
+    width: 20vw;
 }
 nav{
     background-color: rgba(44, 44, 66, 0.493);
@@ -41,6 +43,10 @@ nav > a{
     text-decoration: none;
     color: white;
 }
+div#navegar{
+    text-align: justify;
+    padding-right: 5%;
+}
 div#navegar > a{
     padding: 20px;
     font-size: 20px;
@@ -53,4 +59,27 @@ div#navegar > a:hover{
 }
 h1{
     font-size: 20px;
+}
+
+@media screen and (min-width:992px){
+    body,html{
+        background: url(../imagens/destination/background-destination-desktop.jpg) ;
+    }
+    div#moon{
+      float: left;
+      width: 53vw;
+      
+    }
+    img{
+        width: 50%;
+    }
+    div#navegar{
+        float: right;
+        max-width: 37vw;
+        padding-top: 116px;
+        padding-right: 49px;
+       
+    }
+    
+
 }

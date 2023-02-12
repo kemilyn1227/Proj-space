@@ -12,6 +12,14 @@ main{
     padding-bottom: 15px;
     
 }
+
+img{
+    width: 133px;
+}
+nav >a{
+    padding: 10px;
+
+}
 main >a {
 
     color: rgb(253, 252, 252);
@@ -33,4 +41,58 @@ section h1{
 
 section >p {
     padding: 0px;
+}
+
+@media screen and (min-width:992px){
+    
+    body,html{
+        background: black url(../imagens/technology/background-technology-desktop.jpg);
+    }
+
+    main{
+        float: left;
+        
+
+    }
+    main>a{
+        display: block;
+        font-size: 31px;
+        border-radius: 63%;
+        width: 4px;
+        margin: auto;
+        margin-bottom: 10px;
+        
+    }
+    
+    img{
+        width: 400px;
+        float: right;
+
+    }
+    nav{
+        background:linear-gradient(to right, rgba(22, 22, 63, 0.603), rgba(128, 128, 128, 0.178));
+        width: 80.5em;
+        height: 20px;
+        
+    
+        
+    }
+    section{
+        
+        padding-left: 327px;
+        padding-top: 90px;
+        text-align: left;
+        
+        
+    }
+    section >p{
+        font-size: 26px;
+        width: 327px;
+        margin: 0px;
+        
+    }
+   
+
+    
+    
 }

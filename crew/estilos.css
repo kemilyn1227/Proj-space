@@ -25,6 +25,7 @@ img{
     padding-bottom: 5px;
     display: block;
     margin: auto;
+    width: 20vw;
 }
 section >a{
     padding: 10px;
@@ -54,4 +55,34 @@ main{
 h1{
     font-size: 25px;
     padding: 30px;
+}
+
+@media screen and (min-width:992px){
+
+    img{
+        float: right;
+        width: 45vw;
+        padding-left: 20%;
+    }
+
+    body , html{
+        background: black url(../imagens/crew/background-crew-desktop.jpg) no-repeat;
+    }
+
+    nav{
+        background:linear-gradient(to right, rgba(22, 22, 63, 0.603), rgba(128, 128, 128, 0.178));
+        width: 80.5em;
+        height: 61px;
+    }
+
+
+
+    main#ianou h1 p{
+        float: left;
+        width: 70vw;
+    }
+    main{
+        max-width: 1016px;
+    }
+
 }

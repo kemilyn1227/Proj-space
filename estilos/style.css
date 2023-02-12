@@ -67,6 +67,9 @@ h1{
     padding-bottom: 0.5em;
 
 }
+div#space>h2{
+    font-family:'Barlow Condensed', sans-serif;
+}
 div#space > p{
     display: block;
     margin: auto;
@@ -96,4 +99,39 @@ a#home{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
     
 
+}
+
+@media screen and (min-width:992px){
+    menu#itens{
+        display: block;
+    }
+    body,html{
+        background: url(../imagens/home/background-home-desktop.jpg);
+    }
+    span#burguer{
+        display: none;
+        
+    }
+    body > menu#itens {
+        display: block;
+        float: right;
+        margin-top: 36px;
+        padding: 20px;
+        background:linear-gradient(to right, rgba(12, 12, 65, 0.521), rgba(94, 93, 95, 0.726) );
+    }
+    body>menu#itens >a{
+        background-color:rgba(105, 105, 105, 0);
+    }
+    body> div#space{
+        float: left;
+
+    }
+    body >a#home{
+        float: right;
+        position: relative;
+        top: 193px;
+        left: 384px;
+    }
+
+     
 }
