@@ -47,7 +47,7 @@ menu#itens >a{
     margin-top: 32px;
     margin: -1px;
     padding: 3px;
-    font-size: 1em;
+    font-size: 15px;
 }
 
 menu#itens >a:hover{
