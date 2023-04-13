@@ -15,7 +15,7 @@ background: black url(../imagens/home/background-home-mobile.jpg) no-repeat ;
 color: white;
 background-size: cover;
 background-position: center center;
-height: 875px;;
+
 text-align: center;
 }
 
@@ -89,9 +89,10 @@ a#home{
     
     display: block;
     margin: auto;
+    margin-bottom: 10px;
     text-decoration: none;
     color: black;
-    background-color: wheat;
+    background-color: white;
     font-size: 2.5em;
     border-radius:100em;
     padding: 54px;
